@@ -79,7 +79,6 @@ self.addEventListener("fetch", function (event) {
 
 self.addEventListener('activate', function (event) {
     var cacheKeeplist = ['manager-cache'];
-
     event.waitUntil(
         caches.keys().then(function (keyList) {
             return Promise.all(keyList.map(function (key) {
