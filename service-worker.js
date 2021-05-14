@@ -52,7 +52,7 @@ self.addEventListener('install', function (e) {
     // cached all of our files
     e.waitUntil(
         // Here we call our cache "myonsenuipwa", but you can name it anything unique
-        caches.open('ctcae5-cache').then(cache => {
+        caches.open('managers-cache').then(cache => {
             // If the request for any of these resources fails, _none_ of the resources will be
             // added to the cache.
             return cache.addAll(targetUrl);
