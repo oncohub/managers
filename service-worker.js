@@ -18,6 +18,7 @@ const targetUrl = [
                 'js/data.min.js',
                 'js/xlsx.full.min.js',
                 'js/script-obfuscated.min.js',
+                'js/script.min.js',
                 'css/style.min.css',
                 'ionic/angular/angular.min.js',
                 'ionic/angular/angular-animate.min.js',
