@@ -84,7 +84,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker
-                .register('/managers/service-worker.js', {
+                .register('service-worker.js', {
                     scope: '/managers/'
                 })
                 .then(function (registration) {
