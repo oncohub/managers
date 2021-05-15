@@ -57,8 +57,8 @@ self.addEventListener('install', function (e) {
             // If the request for any of these resources fails, _none_ of the resources will be
             // added to the cache.
             console.log(cache);
-            //return cache.addAll(targetUrl);
-            return cache.addAll(targetUrl.map(url => new Request(url, {credentials: 'same-origin'})));
+            return cache.addAll(targetUrl);
+            //return cache.addAll(targetUrl.map(url => new Request(url, {credentials: 'same-origin'})));
         })
     );
 });
