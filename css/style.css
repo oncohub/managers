@@ -437,4 +437,55 @@ div.header.button-bar a.button.selected {
     .catalogue-menu-red {
         background-color: pink;
     }
+
+
+
+    .catalogue-menu {
+        font-size: 0.8em; font-weight: 500; color: #fff !important; background-color: #0c5dbf; color: #000; border-radius: 20px; padding:4px 8px;
+    }
+    .sky .catalogue-menu,
+    .sky .catalogue-menu-bar{
+        background-color: #616161;
+    }
+    .sky .catalogue-content span.prefix{
+        color: rgb(85, 133, 13);
+        padding-right: 4px;
+    }
+    .red .catalogue-menu,
+    .red .catalogue-menu-bar{
+        background-color: rgb(187, 38, 63);
+    }
+    .red .catalogue-content span.prefix{
+        color: rgb(139, 37, 54);
+        padding-right: 4px;
+    }
+    
+    .blue .catalogue-menu,
+    .blue .catalogue-menu-bar{
+        background-color: rgb(41, 112, 140);
+    }
+    .blue .catalogue-content span.prefix{
+        color: rgb(38, 128, 164);
+        padding-right: 4px;
+    }
+    
+    .yellow .catalogue-menu,
+    .yellow .catalogue-menu-bar{
+        background-color: rgb(184, 179, 39);
+    }
+    .yellow .catalogue-content span.prefix{
+        color: rgb(138, 134, 30);
+        padding-right: 4px;
+    }
+    .green .catalogue-menu,
+    .green .catalogue-menu-bar{
+        background-color: rgb(97, 143, 29);
+    }
+    .yellow .catalogue-content span.prefix{
+        color: rgb(89, 133, 24);
+        padding-right: 4px;
+    }
+    .title.catalogue-menu-bar {
+        background-color: #193760;
+        }
 }
