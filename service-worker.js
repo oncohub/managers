@@ -5,7 +5,6 @@ importScripts('serviceworker-cache-polyfill.js');
 // All ServiceWorker code must be inside events.
 
 const targetUrl = [
-                '',
                 'index.html',
                 'templates/about.min.html',
                 'templates/detail.min.html',
@@ -58,7 +57,6 @@ self.addEventListener('install', function (e) {
             // added to the cache.
             console.log(cache);
             //return cache.addAll(targetUrl);
-            console.log('Opened cache');
             return cache.addAll(targetUrl.map(url => new Request(url, {credentials: 'same-origin'})));
         })
     );
