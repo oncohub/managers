@@ -5,6 +5,7 @@ importScripts('serviceworker-cache-polyfill.js');
 // All ServiceWorker code must be inside events.
 
 const targetUrl = [
+                '',
                 'index.html',
                 'templates/about.min.html',
                 'templates/detail.min.html',
