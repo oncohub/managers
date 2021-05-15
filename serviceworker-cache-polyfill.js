@@ -16,7 +16,6 @@
  */
 
 (function () {
-    console.log("hi");
     var nativeAddAll = Cache.prototype.addAll;
     var userAgent = navigator.userAgent.match(/(Firefox|Chrome)\/(\d+\.)/);
 
@@ -37,7 +36,7 @@
 
     Cache.prototype.addAll = function addAll(requests) {
         var cache = this;
-        console.log('request', request, cache);
+
         // Since DOMExceptions are not constructable:
         function NetworkError(message) {
             this.name = 'NetworkError';

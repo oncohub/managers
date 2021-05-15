@@ -263,7 +263,7 @@
         }
 
     ],
-    "start_url": "https://oncohub.github.io/",
+    "start_url": "https://oncohub.github.io/managers/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff"
