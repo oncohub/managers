@@ -59,7 +59,7 @@ self.addEventListener('install', function (e) {
             console.log(cache);
             //return cache.addAll(targetUrl);
             console.log('Opened cache');
-            return cache.addAll(urlsToCache.map(url => new Request(url, {credentials: 'same-origin'})));
+            return cache.addAll(targetUrl.map(url => new Request(url, {credentials: 'same-origin'})));
         })
     );
 });
