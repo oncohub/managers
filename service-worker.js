@@ -47,7 +47,7 @@ const targetUrl = [
                 'images/logo/logo.png'
             ];
 self.addEventListener('install', function (e) {
-    console.log('install');
+    console.log('install', e);
 
     // waitUntil tells the browser that the install event is not finished until we have
     // cached all of our files
